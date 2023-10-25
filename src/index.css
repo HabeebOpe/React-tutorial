@@ -1,0 +1,36 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10%;
+}
+.app-section{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
+}
+.profile-image{
+     display: flex;
+     align-items: center;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     overflow: hidden;
+}
+.profile-image img{
+     width: 100%;
+     height: auto;
+}
+.profile-text{
+     width: 100%;
+     padding: 10px 0;
+}
+.rate{
+     width: 50px;
+     padding: 10px 0;
+}
